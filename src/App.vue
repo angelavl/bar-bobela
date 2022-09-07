@@ -5,6 +5,7 @@
 <script>
 import WorkInProgress from './components/WorkInProgress.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -14,28 +15,32 @@ export default {
 </script>
 
 <style>
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url(./assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   height: 100%;
   width: 100%;
   margin:0;
-  position: relative;
-  display:flex;
   background: url('@/assets/images/pattern_white.jpg');
-   background-size: cover;
+  background-size: cover;
 }
 
-/* #app {
+#app {
   display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
-  position: relative;   
-
-
- font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}  */
+  font-family: "Montserrat";
+} 
 </style>
