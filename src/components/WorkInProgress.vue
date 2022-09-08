@@ -26,24 +26,22 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 3rem 2rem;
     box-shadow: 0 10px 20px rgba(207,51,57, 0.3), 0 20px 30px rgba(207,51,57, 0.3);
 }
 
-
-
- .image {
+.image {
     width: 50%;
     height:50%;
     margin-bottom:1em;
-    }
+}
 
-    span {
-        font-size:0.875rem;
-        color: white;
-        margin-bottom:0.5rem;
-        text-align: center;
-    }
+span {
+    font-size:0.875rem;
+    color: white;
+    margin-bottom:0.5rem;
+    text-align: center;
+}
 
     @media only screen and (min-width: 768px) {
     .work_in_progress {
