@@ -1,10 +1,8 @@
 <template>  
     <div class="work_in_progress">
         <img class="image" :src="require('@/assets/images/restaurant_logo_black.png')"/>
-        <span>Estamos cocinando nuestra web.</span>
-        <span>Mientras tanto puedes reservar por teléfono (984 285 024) </span>
-        <span>o por correo electrónico (reservas@bobelarestaurante.es)</span>
-        <span>¡Te esperamos!</span>
+        <span>Próxima apertura otoño 2022</span>
+        <span>C/ Juanín de Mieres · 33600 · Mieres · Asturias</span>
     </div>
 </template>
 
@@ -16,8 +14,6 @@ export default {
 </script>
 
 <style scoped>
-
-  
 .work_in_progress {
     width: 100%;
     height: 30%;
