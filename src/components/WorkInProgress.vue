@@ -35,6 +35,9 @@ export default {
     width: 50%;
     height:50%;
     margin-bottom:1em;
+    animation: fadeIn 0.8s ease-in forwards;
+    /* animation-delay:0.8s; */
+    opacity: 0;
 }
 
 span {
@@ -42,11 +45,17 @@ span {
     color: white;
     margin-bottom:0.5rem;
     text-align: center;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay:0.8s;
+    opacity:0;
 }
 
 .social_media {
     display: flex;
     margin-top: 1.5rem;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay:1.6s;
+    opacity:0;
 }
 
 .social_media_logo {
@@ -77,6 +86,16 @@ span {
         padding:0.5rem;
     }
 }
+
+  @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
 
 </style>
 
