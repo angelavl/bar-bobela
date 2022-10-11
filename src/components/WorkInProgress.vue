@@ -2,7 +2,12 @@
     <div class="work_in_progress">
         <img class="image" :src="require('@/assets/images/restaurant_logo_black.png')"/>
         <span>Próxima apertura otoño 2022</span>
-        <span>C/ Juanín de Mieres · 33600 · Mieres · Asturias</span>
+        <span>C/ Juanín de Mieres, 1</span>
+        <span>Mieres - Asturias </span>
+        <div class="social_media">
+            <a href="https://www.instagram.com/bobelarestaurante/"><img :src="require('@/assets/icons/instagram_icon.svg')"/></a>
+            <a href="https://www.facebook.com/Bobela-Restaurante-105115832344696"><img :src="require('@/assets/icons/facebook_icon.svg')"/></a>
+        </div>
     </div>
 </template>
 
@@ -38,6 +43,13 @@ span {
     margin-bottom:0.5rem;
     text-align: center;
 }
+
+    .social_media {
+        display: flex;
+        margin-top: 1.5rem;
+        width: 80%;
+        justify-content: space-evenly;
+    }
 
     @media only screen and (min-width: 768px) {
     .work_in_progress {
