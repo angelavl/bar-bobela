@@ -5,8 +5,8 @@
         <span>C/ Juanín de Mieres, 1</span>
         <span>Mieres - Asturias </span>
         <div class="social_media">
-            <a href="https://www.instagram.com/bobelarestaurante/"><img :src="require('@/assets/icons/instagram_icon.svg')"/></a>
-            <a href="https://www.facebook.com/Bobela-Restaurante-105115832344696"><img :src="require('@/assets/icons/facebook_icon.svg')"/></a>
+            <a href="https://www.instagram.com/bobelarestaurante/"><img class="social_media_logo" :src="require('@/assets/icons/instagram_icon.svg')"/></a>
+            <a href="https://www.facebook.com/Bobela-Restaurante-105115832344696"><img class="social_media_logo" :src="require('@/assets/icons/facebook_icon.svg')"/></a>
         </div>
     </div>
 </template>
@@ -44,12 +44,16 @@ span {
     text-align: center;
 }
 
-    .social_media {
-        display: flex;
-        margin-top: 1.5rem;
-        width: 80%;
-        justify-content: space-evenly;
-    }
+.social_media {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.social_media_logo {
+    padding:0.5rem;
+}
+
+
 
     @media only screen and (min-width: 768px) {
     .work_in_progress {
@@ -59,6 +63,18 @@ span {
 
         span {
         font-size:1rem;
+    }
+
+    .social_media {
+        display: flex;
+        margin-top: 1.5rem;
+        width: auto;
+    }
+
+    .social_media_logo {
+        width: 1.872rem;
+        height: 1.872rem;
+        padding:0.5rem;
     }
 }
 
