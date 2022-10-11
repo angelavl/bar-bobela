@@ -32,7 +32,7 @@ body {
   width: 100%;
   margin:0;
   background: url('@/assets/images/pattern_white.jpg');
-  background-size: cover;
+  object-fit: cover;
 }
 
 #app {
