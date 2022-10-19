@@ -1,9 +1,13 @@
 <template>  
     <div class="work_in_progress">
         <img class="image" :src="require('@/assets/images/restaurant_logo_black.png')"/>
-        <span>Próxima apertura otoño 2022</span>
-        <span>C/ Juanín de Mieres, 1</span>
-        <span>Mieres - Asturias </span>
+        <span>Estamos cocinando nuestra web.</span>
+        <span>Mientras tanto puedes realizar tu reserva </span>
+        <span>por teléfono </span>
+        <span><a href="tel:984-285-024">984 285 024</a></span>
+        <span>o por correo electrónico</span>
+        <span><a href="mailto:reservas@bobelarestaurante.es">reservas@bobelarestaurante.es</a></span>
+        <span>¡Te esperamos!</span>
         <div class="social_media">
             <a href="https://www.instagram.com/bobelarestaurante/"><img class="social_media_logo" :src="require('@/assets/icons/instagram_icon.svg')"/></a>
             <a href="https://www.facebook.com/Bobela-Restaurante-105115832344696"><img class="social_media_logo" :src="require('@/assets/icons/facebook_icon.svg')"/></a>
@@ -21,7 +25,7 @@ export default {
 <style scoped>
 .work_in_progress {
     width: 100%;
-    height: 30%;
+    height: 40%;
     background-color: #CF3339;
     display: flex;
     flex-direction: column;
@@ -42,7 +46,7 @@ export default {
 
 span {
     font-size:0.875rem;
-    color: white;
+    color: #fff;
     margin-bottom:0.5rem;
     text-align: center;
     animation: fadeIn 0.8s ease-in forwards;
@@ -62,6 +66,9 @@ span {
     padding:0.5rem;
 }
 
+a {
+    color: #fff;
+}
 
 
     @media only screen and (min-width: 768px) {
