@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .work_in_progress {
     width: 100%;
-    height: 40%;
+    height: 45%;
     background-color: #CF3339;
     display: flex;
     flex-direction: column;
