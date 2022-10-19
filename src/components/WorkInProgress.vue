@@ -38,7 +38,7 @@ export default {
 .image {
     width: 50%;
     height:50%;
-    margin-bottom:0.75em;
+    margin-bottom:0.5em;
     animation: fadeIn 0.8s ease-in forwards;
     /* animation-delay:0.8s; */
     opacity: 0;
@@ -56,7 +56,7 @@ span {
 
 .social_media {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay:1.6s;
     opacity:0;
