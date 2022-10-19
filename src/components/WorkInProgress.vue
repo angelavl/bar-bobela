@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .work_in_progress {
     width: 100%;
-    height: 45%;
+    height: 50%;
     background-color: #CF3339;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ export default {
 .image {
     width: 50%;
     height:50%;
-    margin-bottom:1em;
+    margin-bottom:0.75em;
     animation: fadeIn 0.8s ease-in forwards;
     /* animation-delay:0.8s; */
     opacity: 0;
@@ -56,7 +56,7 @@ span {
 
 .social_media {
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay:1.6s;
     opacity:0;
